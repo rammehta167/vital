@@ -1,0 +1,6 @@
+timestamp,reference_device_model,reference_bpm,reference_spo2,simulated_device_id,simulated_bpm,simulated_spo2,bpm_diff,spo2_diff,notes
+2026-10-13T10:00:00Z,ChoiceMMed-MD300C2,72,98,ESP32-VITAL-01,73.1,98.2,1.1,0.2,Normal resting state
+2026-10-13T10:05:00Z,ChoiceMMed-MD300C2,75,98,ESP32-VITAL-01,74.8,97.9,-0.2,-0.1,Normal resting state
+2026-10-13T10:10:00Z,ChoiceMMed-MD300C2,110,97,ESP32-VITAL-01,112.4,96.8,2.4,-0.2,Post-light brisk walking
+2026-10-13T10:15:00Z,ChoiceMMed-MD300C2,95,96,ESP32-VITAL-01,94.2,96.1,-0.8,0.1,Recovery phase
+2026-10-13T10:20:00Z,ChoiceMMed-MD300C2,70,99,ESP32-VITAL-01,71.0,98.8,1.0,-0.2,Resting state

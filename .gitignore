@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+*.env.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads & Temp files
+backend/uploads/
+uploads/
+scratch/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+.agents/

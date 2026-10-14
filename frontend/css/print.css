@@ -1,0 +1,43 @@
+/* Print-friendly stylesheet for AI Doctor Clinical Summary */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  .disclaimer-banner,
+  .navbar,
+  .tabs-container,
+  .chat-toggle-btn,
+  .chat-panel,
+  .no-print,
+  .btn,
+  .app-footer {
+    display: none !important;
+  }
+
+  .page-container {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .doctor-summary-sheet {
+    display: block !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .card {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    margin-bottom: 12pt !important;
+  }
+
+  .provenance-tag {
+    border: 1px solid #666 !important;
+    color: #333 !important;
+  }
+}
